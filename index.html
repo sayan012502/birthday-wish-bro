@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happiee bala Birthday borda !!!!🎉</title>
+
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- AOS scroll‑animation library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV BAR ──────────────────────────────────────────────── -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#countdown">Countdown</a></li>
+       
+        <li><a href="#message">Message</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ─── HERO SECTION ─────────────────────────────────────────── -->
+  <section id="hero" class="hero">
+    <div class="glass" data-aos="zoom-in">
+    
+      <h1>🎉 Happiee bala Birthday borda !!!!🎉!!! 🎉</h1>
+      <p class="dob">Born 01 july 1998 • Level <span id="age"></span></p>
+      <div class="hero‑btns">
+        
+        <button onclick="launchFireworks()"><i class="fa-solid fa-burst"></i> Lets Celebrate</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── COUNTDOWN SECTION ────────────────────────────────────── -->
+  <section id="countdown=" class="countdown" data-aos="fade-up">
+    <h2>⏳ Birthday Countdown</h2>
+    <div id="timer">
+      <div><span id="d">0</span><small>Days</small></div>
+      <div><span id="h">0</span><small>Hours</small></div>
+      <div><span id="m">0</span><small>Minutes</small></div>
+      <div><span id="s">0</span><small>Seconds</small></div>
+    </div>
+  </section>
+
+ 
+
+  <!-- ─── MESSAGE SECTION ──────────────────────────────────────── -->
+  <section id="message" class="message" data-aos="fade-up">
+    <h2>🥳 A Little Roast & Toast</h2>
+    <p>
+      Old enough to know better, young enough to still do it anyway.
+                       
+      And one more most important thig keep your hand working this year also<br>
+      <strong>#LivingLegend</strong> 😜
+    </p>
+    <button id="shareBtn"><i class="fa-solid fa-share-nodes"></i> Share this Page</button>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────────── -->
+  <footer id="footer">
+    <p>Made with <i class="fa-solid fa-heart"></i> for my favourite human.</p>
+    <div class="socials">
+      <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/"     target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://youtube.com/"    target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <!-- ─── SURPRISE MODAL POP‑UP ────────────────────────────────── -->
+  <div id="modal" class="modal hidden">
+    <div class="modal‑content glass">
+      <span id="closeModal">&times;</span>
+      <h2>🎊 Surprise! 🎊</h2>
+      <p>happy birthday wish you a many many happy returns of the day you are a wonderful person  I hope your special day is the beginning may all your dreams come true today and always god bless you always happy don't be said the birthday caption is short but wishing you everything that bring happiness for and always wish the best on this special day I feel so lucky to have you as my brother  thanks for being such a great brother</p>
+    </div>
+  </div>
+
+  <!-- ─── MEDIA / LIBRARIES ────────────────────────────────────── -->
+  <audio id="song" src="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav"></audio>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
